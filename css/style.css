@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Roboto:wght@300;400;700&display=swap");
+@font-face {
+  font-family: "The Sims Sans Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: local("The Sims Sans Bold"), url("../@font-face/thesimssansbold.woff") format("woff");
+}
+* {
+  font-family: "The Sims Sans Bold";
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  background: none;
+}
+
+.container {
+  max-width: 1440px;
+  width: 100%;
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.header {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  box-shadow: 0px 9px 14px rgba(0, 0, 0, 0.25);
+}
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__box__right {
+  max-width: 800px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__box__versions {
+  max-width: 240px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.header__box__versions__link {
+  font-size: 20px;
+  color: black;
+}
+.header__box__versions__span {
+  color: #7F3047;
+}
+.header__box__personal {
+  max-width: 112px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.header__search {
+  padding: 12px 114px 10px 60px;
+  border: 2px solid #7F3047;
+  border-radius: 10px;
+  background: url("../img/searchPlaceHolder.svg") no-repeat left 15px center;
+}
+.header__search::placeholder {
+  color: rgba(127, 48, 71, 0.75);
+  font-family: Roboto;
+  font-weight: light;
+  font-size: 20px;
+  line-height: 23px;
+}
+
+.slide__content__box {
+  max-width: 700px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 86px;
+}
+.slide__button__download {
+  background: rgba(127, 48, 71, 0.75);
+  border-radius: 43px;
+  padding: 18px 69px;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 56px;
+}
+.slide__button__box {
+  margin-top: 167px;
+  max-width: 485px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.slide__description {
+  max-width: 478px;
+  width: 100%;
+  align-self: end;
+  font-family: "Roboto Slab";
+  font-size: 45px;
+  line-height: 59px;
+  text-align: right;
+  color: rgba(127, 48, 71, 0.75);
+}
+.slide__headline {
+  align-self: end;
+  font-weight: 700;
+  font-size: 120px;
+  line-height: 149px;
+  color: #FFFFFF;
+}
+
+.itc-slider__item {
+  padding-top: 68px;
+  padding-bottom: 79px;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+.itc-slider__item__first {
+  background-color: #A3A1E2;
+  background-image: url("../img/slide/firstslide.png");
+}
+.itc-slider__item__second {
+  background-color: #E2BDA1;
+  background-image: url("../img/slide/secondslide.png");
+}
+.itc-slider__item__third {
+  background-color: #CDE2A1;
+  background-image: url("../img/slide/thirdslide.png");
+}/*# sourceMappingURL=style.css.map */

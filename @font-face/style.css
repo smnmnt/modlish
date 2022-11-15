@@ -1,0 +1,7 @@
+
+    @font-face {
+    font-family: 'The Sims Sans Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('The Sims Sans Bold'), url('thesimssansbold.woff') format('woff');
+    }

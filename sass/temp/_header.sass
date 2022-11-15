@@ -1,0 +1,44 @@
+.header
+    padding-top: 20px
+    padding-bottom: 20px
+    box-shadow: 0px 9px 14px rgba(0, 0, 0, 0.25)
+    &__container
+        display: flex
+        justify-content: space-between
+        align-items: center
+    &__box
+        &__right
+            max-width: 800px
+            width: 100%
+            display: flex
+            align-items: center
+            justify-content: space-between
+        &__versions
+            max-width: 240px
+            width: 100%
+            display: flex
+            justify-content: space-between
+            &__link
+                font-size: 20px
+                color: black
+                // font-family: Roboto
+            &__span
+                // font-family: Roboto
+                color: #7F3047
+        &__personal
+            max-width: 112px
+            width: 100%
+            display: flex
+            justify-content: space-between
+    &__search
+        padding: 12px 114px 10px 60px
+        border: 2px solid #7F3047
+        border-radius: 10px
+        background: url('../img/searchPlaceHolder.svg') no-repeat left 15px center
+        &::placeholder
+            color: rgba(127, 48, 71, 0.75)
+            font-family: Roboto
+            font-weight: light
+            font-size: 20px
+            line-height: 23px
+    
