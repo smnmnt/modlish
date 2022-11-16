@@ -63,7 +63,7 @@ a {
   justify-content: space-between;
 }
 .header__search {
-  padding: 12px 114px 10px 60px;
+  padding: 16px 114px 10px 60px;
   border: 2px solid #7F3047;
   border-radius: 10px;
   background: url("../img/searchPlaceHolder.svg") no-repeat left 15px center;
@@ -122,6 +122,8 @@ a {
   padding-bottom: 79px;
   background-repeat: no-repeat;
   background-position: right bottom;
+  max-width: 1440px;
+  width: 100%;
 }
 .itc-slider__item__first {
   background-color: #A3A1E2;
