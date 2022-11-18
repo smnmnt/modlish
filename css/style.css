@@ -102,6 +102,91 @@ button {
   line-height: 23px;
 }
 
+.slide__content {
+  max-width: 1440px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  margin: auto;
+}
+.slide__content__text {
+  max-width: 619px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+.slide__content__text-two {
+  max-width: 695px;
+  width: 100%;
+}
+.slide__content__text-three {
+  max-width: 669px;
+  width: 100%;
+}
+.slide__content__box {
+  display: flex;
+  flex-direction: column;
+  margin-left: 86px;
+}
+.slide__button__download {
+  background: rgba(127, 48, 71, 0.75);
+  border-radius: 43px;
+  padding: 18px 69px;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 56px;
+  color: white;
+}
+.slide__button__box {
+  margin-top: 167px;
+  max-width: 485px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.slide__description {
+  max-width: 478px;
+  width: 100%;
+  align-self: end;
+  font-family: "Roboto Slab";
+  font-size: 45px;
+  line-height: 59px;
+  text-align: right;
+  color: rgba(127, 48, 71, 0.75);
+  margin: 0;
+}
+.slide__headline {
+  align-self: end;
+  font-weight: 700;
+  font-size: 120px;
+  line-height: 149px;
+  color: #FFFFFF;
+}
+
+.itc-slider__item {
+  padding-top: 68px;
+  padding-bottom: 79px;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  max-width: 1440px;
+  width: 100%;
+}
+.itc-slider__item__first {
+  background-color: #A3A1E2;
+  background-image: url("../img/slide/firstslide.png");
+}
+.itc-slider__item__second {
+  background-color: #E2BDA1;
+  background-image: url("../img/slide/secondslide.png");
+}
+.itc-slider__item__third {
+  background-color: #CDE2A1;
+  background-image: url("../img/slide/thirdslide.png");
+}
+
 .recently {
   padding-top: 61px;
   padding-bottom: 81px;
