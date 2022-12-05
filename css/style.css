@@ -52,6 +52,8 @@ button {
   padding-top: 20px;
   padding-bottom: 20px;
   box-shadow: 0px 9px 14px rgba(0, 0, 0, 0.25);
+  position: relative;
+  z-index: 998;
 }
 .header__container {
   display: flex;
@@ -360,4 +362,60 @@ button {
   left: 0;
   bottom: 0;
   width: 100%;
+}
+
+.popup {
+  z-index: 999;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(127, 48, 71, 0.5);
+}
+.popup__inside {
+  background: white;
+  max-width: 608px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 43px;
+}
+.popup__logo {
+  margin-top: 37px;
+  margin-bottom: 37px;
+}
+.popup__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.popup__copyright {
+  margin: 0;
+  margin-bottom: 13px;
+  padding-top: 13px;
+  width: 100%;
+  border-top: 2px solid rgba(127, 48, 71, 0.75);
+}
+.popup__button {
+  margin-top: 45px;
+  margin-bottom: 45px;
+}
+.popup__input {
+  margin-top: 26px;
+}
+.popup__input::first-of-type {
+  margin-top: 0;
+}
+.popup__button {
+  font-size: 25px;
+  line-height: 31px;
+  padding: 11px 43px;
+}
+.popup__close {
+  display: none;
 }/*# sourceMappingURL=style.css.map */

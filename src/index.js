@@ -1,5 +1,5 @@
 const modal = document.querySelector('.popup')
-const buttons = document.querySelectorAll('.button')
+const buttons = document.querySelectorAll('.open__popup')
 
 // button.addEventListener('click', toglleModal);
 // buttonClosed.addEventListener('click', toglleModal);

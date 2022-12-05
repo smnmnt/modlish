@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="shortcut icon" href="../img/logo.png" type="image/x-icon">
-    <script src="./src/index.js" defer></script>
+    <script src="../src/index.js" defer></script>
     <title>Modlish</title>
 </head>
 <body>
@@ -21,8 +21,8 @@
                 </div>
                 <input type="search" name="search" id="header__search" class="header__search" placeholder="Поиск">
                 <div class="header__box__personal">
-                    <button class="header__box__personal__button header__box__personal__cart"><img src="../img/cart.svg" alt="cart" class="header__box__personal__cart__img"></button>
-                    <button class="header__box__personal__button header__box__personal__user"><img src="../img/user.svg" alt="user" class="header__box__personal__user__img"></button>
+                    <a  href="cart.html" class="header__box__personal__button header__box__personal__cart"><img src="../img/cart.svg" alt="cart" class="header__box__personal__cart__img"></a>
+                    <button class="button header__box__personal__button header__box__personal__user open__popup"><img src="../img/user.svg" alt="user" class="header__box__personal__user__img"></button>
                 </div>
             </div>
         </div>
@@ -68,7 +68,7 @@
                             </ul>
                         </div>
                         <div class="collection__box__right__box__buttons">
-                            <button class="collection__box__right__box__buttons__download button__download">Скачать</button>
+                            <a  href="cart.html" class="button collection__box__right__box__buttons__download button__download">Скачать</a>
                             <div class="collection__box__right__box__buttons__social">
                                 <a href="#" class="collection__box__right__box__buttons__social"><img src="../img/patreon.svg" alt="@" class="collection__box__right__box__buttons__social__img"></a>
                                 <a href="#" class="collection__box__right__box__buttons__social"><img src="../img/tumblr.svg" alt="@" class="collection__box__right__box__buttons__social__img"></a>
@@ -90,5 +90,19 @@
             <p class="copyright">merior & smnmnt & eeelena_a</p>
         </div>
     </footer>
+
+    <section class="popup popup__close">
+        <div class="popup__inside">
+            <a href="../index.html" class="popup__logo"><img src="../img/logoModlish.svg" alt="Modlish" class="header__logo__img"></a>
+            <form action="" class="popup__form">
+                <input type="text" name="search" id="header__search" class="popup__input-first header__search" placeholder="Ваш никнейм">
+                <input type="email" name="search" id="header__search" class="popup__input header__search" placeholder="Почта">
+                <input type="password" name="search" id="header__search" class="popup__input header__search" placeholder="Пароль">
+                <input type="password" name="search" id="header__search" class="popup__input header__search" placeholder="Повторите пароль">
+                <input type="submit" class="button__download popup__button" value="Войти">
+            </form>
+            <p class="copyright popup__copyright">merior & smnmnt & eeelena_a</p>
+        </div>
+    </section>
 </body>
 </html>
