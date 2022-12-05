@@ -326,4 +326,38 @@ button {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.cart {
+  padding-top: 100px;
+}
+.cart__headline {
+  text-align: left;
+}
+.cart__container {
+  max-width: 1208px;
+  width: 100%;
+}
+.cart__headline {
+  margin-bottom: 28px;
+}
+.cart__paragraph {
+  max-width: 672px;
+  width: 100%;
+  font-family: "Roboto Slab";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  color: #000000;
+  margin-bottom: 46px;
+}
+.cart__buttons {
+  margin-top: 0;
+}
+.cart__footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }/*# sourceMappingURL=style.css.map */
